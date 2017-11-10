@@ -86,7 +86,7 @@ public class FrameAddFace extends JFrame {
 		pEast.setPreferredSize(new Dimension(320, 240));
 		
 		//Frame
-		jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		jf.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		jf.setLocationRelativeTo(null);
 		jf.setResizable(false);
 		jf.setSize(640, 480);
